@@ -4,7 +4,7 @@
 import os
 import random
 
-#Define main() Function
+# Define main() Function
 def main():
 
     # Print Welcome Messages
@@ -23,11 +23,11 @@ def main():
         # Get Guessed Value from User
         guess = int(raw_input("Take a guess: "))
 
-        #If Guessed Value is Lesser Than Number
+        # If Guessed Value is Lesser Than Number
         if guess < num:
             print "Guess higher next time\n"
 
-        #If Guessed Value is Higher Than Number
+        # If Guessed Value is Higher Than Number
         elif guess > num:
             print "Guess lower next time\n"
 
